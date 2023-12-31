@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+main{
+    width: 40vw;
+    height:90vh;
+    border: 2px solid black;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 2px 2px 200px 2px #fff;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2%;
+}
+
+.input{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.942);
+    margin: auto;
+    height: 6%;
+    border-radius: 2px;
+    display: flex;
+    /* border: 2px solid #fff; */
+}
+
+input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 4%;
+    outline: none;
+    /* background-color: red; */
+}
+
+button{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    transition: .3s linear all;
+    /* background-color: transparent; */
+}
+
+.add-tsk{
+   background-color: rgba(0, 128, 0, 0.479);
+   color:rgb(3, 52, 3) ;
+}
+
+.del-tsk{
+    background-color: rgba(255, 0, 0, 0.479);
+    color:  rgb(114, 5, 5);
+}
+
+button:hover{
+    font-size: 30px;
+}
+
+.list{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.list ul li{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.942);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 2%;
+    color: black;
+    margin-top: 5%;
+}
